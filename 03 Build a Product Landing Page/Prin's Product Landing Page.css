@@ -1,0 +1,51 @@
+body {
+    background-color: #004440;
+}
+
+header {
+    font-size: 54px;
+    font-weight: bold;
+    color: lightpink;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.nav-link {
+    font-size: 32px;
+    color: lightpink;
+}
+
+#box-container {
+    font-size: 30px;
+    color: black;
+    background-color: brown;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+}
+
+div.video {
+    text-align: center;
+}
+  
+#form {
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {
+        width: 200px;
+        float: left;
+    }
+
+    #main {
+        margin-left: 216px;
+    }
+}
